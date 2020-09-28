@@ -24,7 +24,7 @@ jobs:
       - name: use Node.js
         uses: actions/setup-node@v1
       - run: npm install react
-      - run: yum update
+      - run: yum -y update
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
 #       - uses: actions/checkout@v2
 
